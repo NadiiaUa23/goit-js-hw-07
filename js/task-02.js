@@ -27,3 +27,10 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+const imgContainerEL = document.querySelector(".gallery");
+const imgHTML = images.reduce((html, image)=>
+html+'
+<li><img></img></li>
+
+', "";)

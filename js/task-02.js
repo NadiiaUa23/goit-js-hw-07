@@ -28,9 +28,26 @@ const images = [
   },
 ];
 
-const imgContainerEL = document.querySelector(".gallery");
-const imgHTML = images.reduce((html, image)=>
-html+'
-<li><img></img></li>
+const gallery = document.querySelector(".gallery");
+const galleryItems = images.map((image) => {
+  const listItem = document.createElement("li");
+  const imageElement = document.createElement('img');
 
-', "";)
+  imageElement.src = image.url;
+  imageElement.alt = image.alt;
+  imageElement.style.width="360px";
+  imageElement.style.height="300px";
+
+  imageElement.style.marginBottom ="48px";
+  imageElement.style.marginLeft ="24px";
+
+
+
+
+ 
+
+  listItem.appendChild(imageElement);
+  return listItem;
+});
+
+gallery.append(...galleryItems);

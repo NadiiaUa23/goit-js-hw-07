@@ -27,14 +27,17 @@ ul {
   padding: 0;
 }
 
-h2 {
-  color: #2E2F42;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 0, 02em;
-  /* 133.333% */
-  letter-spacing: 0.96px;
-  margin: 0 0 16px 0;
+h1 {}
+
+h2,
+{
+color: #2E2F42;
+font-size: 24px;
+font-weight: 600;
+line-height: 0, 02em;
+/* 133.333% */
+letter-spacing: 0.96px;
+margin: 0 0 16px 0;
 }
 
 .item {
@@ -88,5 +91,25 @@ h2 {
 
 }
 
-/////////////task 2/////
-.gallery {}
+////task 3
+.task3 {
+  border-radius: 8px;
+}
+
+.item-imput {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 40px;
+
+  color: #2E2F42;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.64px;
+
+}

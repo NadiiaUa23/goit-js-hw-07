@@ -156,3 +156,28 @@ margin: 0 0 16px 0;
   /* 150% */
   letter-spacing: 0.64px;
 }
+
+////5task/////
+.task5 {
+  background: #808080;
+
+}
+
+.widget {
+  display: inline-flex;
+  padding: 100px 88px;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+
+.task5-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background: #4E75FF;
+  color: #FFF;
+}

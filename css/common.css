@@ -158,20 +158,17 @@ margin: 0 0 16px 0;
 }
 
 ////5task/////
-.task5 {
-  background: #808080;
 
-}
 
 .widget {
   display: inline-flex;
   padding: 100px 88px;
   flex-direction: column;
   border-radius: 8px;
-  background-color: #FFF;
+
 }
 
-.task5-btn {
+.change-color {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -180,4 +177,5 @@ margin: 0 0 16px 0;
   border: 2px solid transparent;
   background: #4E75FF;
   color: #FFF;
+  border: 8px 16px;
 }

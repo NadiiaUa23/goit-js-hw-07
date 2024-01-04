@@ -37,7 +37,7 @@ const galleryItems = images.map((image) => {
   imageElement.alt = image.alt;
   imageElement.style.width="360px";
   imageElement.style.height="300px";
-  imageElement.style.marginBottom ="48px";
+  // imageElement.style.marginBottom ="48px";
   imageElement.style.marginLeft ="24px";
 
   listItem.appendChild(imageElement);

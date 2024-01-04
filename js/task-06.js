@@ -8,7 +8,9 @@ const btnCreate = document.querySelector('[data-create]');
 const btnDestroy = document.querySelector('[data-destroy]');
 
 //посилання на бокс по ид
-const boxesContainer  = document.getElementById('boxes')
+const boxesContainer  = document.getElementById('boxes');
+
+let pixel = 30;
 
 //add клики подіі
 btnCreate.addEventListener('click', onBtnCreateClick);
@@ -21,7 +23,7 @@ function onBtnCreateClick (){
 //треба провалідувати значення в input,
 const amount =  input.value;
 
-// воно має бути в межах від 1 до 100 включно
+// // воно має бути в межах від 1 до 100 включно
 if (amount < 1 || amount > 100) {
   alert('Будь ласка, введіть число в межах від 1 до 100 включно! Дякую!');
   return;
@@ -31,6 +33,7 @@ if (amount < 1 || amount > 100) {
 createBoxes(amount);
 //удаляем содержимое 
 input.value = '';
+pixel = pixel + 10; 
 };
 
 
@@ -59,8 +62,8 @@ for (let i = 0; i < amount; i++){
   //создаем новий див в боксес  
   const box = document.createElement('div');
 // добавляем css w  and h
-box.style.width = '30px';
-box.style.height = '30px';
+box.style.width = pixel+'px';
+box.style.height = pixel+'px';
 //добавляем цвета c функцией рамдомного цвета 
 box.style.backgroundColor = getRandomHexColor();
 // создали див,размер, цвета и каждий див добавляем в бокс

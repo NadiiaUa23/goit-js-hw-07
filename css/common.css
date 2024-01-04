@@ -14,12 +14,8 @@ body {
   margin: 24px;
 }
 
-//////////////////////////////////////////////////
-
-
 li {
   text-decoration: none;
-
 }
 
 ul {
@@ -27,22 +23,18 @@ ul {
   padding: 0;
 }
 
-h1 {}
-
-h2,
-{
-color: #2E2F42;
-font-size: 24px;
-font-weight: 600;
-line-height: 0, 02em;
-/* 133.333% */
-letter-spacing: 0.96px;
-margin: 0 0 16px 0;
+h2 {
+  color: #2E2F42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0, 02em;
+  /* 133.333% */
+  letter-spacing: 0.96px;
+  margin: 0 0 16px 0;
 }
 
 .item {
   margin-bottom: 24px;
-
 }
 
 .animal {
@@ -53,10 +45,8 @@ margin: 0 0 16px 0;
   padding: 16px;
   flex-direction: column;
   align-items: flex-start;
-
   background: #F6F6FE;
   border-radius: 8px;
-
 }
 
 .product {
@@ -99,7 +89,6 @@ margin: 0 0 16px 0;
   max-width: 1439px;
 }
 
-////task 3
 .task3 {
   border-radius: 8px;
 }
@@ -122,7 +111,6 @@ margin: 0 0 16px 0;
 
 }
 
-////4////
 .form {
   border-radius: 8px;
   margin: 24px;
@@ -199,15 +187,11 @@ margin: 0 0 16px 0;
   letter-spacing: 0.64px;
 }
 
-////5task/////
-
-
 .widget {
   display: inline-flex;
   padding: 100px 88px;
   flex-direction: column;
   border-radius: 8px;
-
 }
 
 .change-color {

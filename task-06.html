@@ -6,19 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Task 6</title>
-  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="./css/common.css" />
 </head>
 
 <body>
   <p><a href="index.html">Go back</a></p>
 
-  <div id="controls">
-    <input type="number" min="1" max="100" step="1" />
-    <button type="button" data-create>Create</button>
-    <button type="button" data-destroy>Destroy</button>
+  <div id="controls" style="
+      border-radius: 8px;
+    background: #F6F6FE;
+    display: flex;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px ;
+ 
+  ">
+    <input class="item-imput" type="number" min="1" max="100" step="1" />
+    <button class="btn-create" type="button" data-create>Create</button>
+    <button class="btn-destroy" type="button" data-destroy>Destroy</button>
   </div>
 
-  <div id="boxes"></div>
+  <div id="boxes" style="
+      display: flex;
+    flex-direction: row;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F6F6FE;"></div>
 
   <script src="./js/task-06.js" type="module"></script>
 </body>

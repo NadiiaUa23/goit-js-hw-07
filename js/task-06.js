@@ -9,7 +9,7 @@ const btnDestroy = document.querySelector('[data-destroy]');
 
 //посилання на бокс по ид
 const boxesContainer  = document.getElementById('boxes');
-
+//дабавлю переменную
 let pixel = 30;
 
 //add клики подіі
@@ -62,6 +62,7 @@ for (let i = 0; i < amount; i++){
   //создаем новий див в боксес  
   const box = document.createElement('div');
 // добавляем css w  and h
+
 box.style.width = pixel+'px';
 box.style.height = pixel+'px';
 //добавляем цвета c функцией рамдомного цвета 
@@ -73,11 +74,11 @@ boxesContainer.append(...boxes);
 
 }
 };
-
+// кнопка удаляет все из html
 function  destroyBoxes() {
   boxesContainer.innerHTML = '';
 };
-
+// рандомний цвет 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
